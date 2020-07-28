@@ -40,3 +40,8 @@ dt = parse('2020-07-28T10:31:18')
 print(dt)
 print(dt.strftime('%d/%m/%Y'))
 print(dt.strftime('%H:%M:%S'))
+
+# Todo - loop through the baskets and change the date time and data formats to be numeric/date time
+# Todo - do some test pushes to the thing
+# Automate the rclone so it picks up the changes
+# Run the script on a timer so that every couple of minutes it pushes any fresh data
